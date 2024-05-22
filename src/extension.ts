@@ -42,7 +42,8 @@ function isValidLanguage(languageId) {
 
 // remove empty lines
 function processLines(lines: vscode.TextLine[]): string[] {
-  return (lines || [])
+  // remove empty line in head
+  let result = (lines || [])
     .reduce((a, line) => {
       let prevLine: vscode.TextLine = a.slice(-1)[0]
       if (prevLine && prevLine.isEmptyOrWhitespace && line.isEmptyOrWhitespace) return a
@@ -50,6 +51,10 @@ function processLines(lines: vscode.TextLine[]): string[] {
       return a.concat([line])
     }, [])
     .map((line: vscode.TextLine) => line.text)
+  if (result.length > 1 && result[0].trim() == ""){
+    delete result[0];
+  }
+  return result;
 }
 
 function selectLines(editor: vscode.TextEditor, start, end) {
