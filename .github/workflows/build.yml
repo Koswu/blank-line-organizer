@@ -33,6 +33,7 @@ jobs:
       run: npm run publish -- -p "$PUBLISH_TOKEN"
       env: 
         PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
+      if: github.event_name == 'push' && contains(github.ref, '/tags/')
 
     
 
