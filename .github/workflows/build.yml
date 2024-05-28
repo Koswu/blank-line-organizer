@@ -27,7 +27,7 @@ jobs:
         file: "*.vsix"
         tag: ${{ github.ref }}
         file_glob: true
-        override: true
+        overwrite: true
       if: github.event_name == 'push' && contains(github.ref, '/tags/')
     - name: Upload binaries to VS Code Marketplace
       run: npm run publish -- -p "$PUBLISH_TOKEN"
