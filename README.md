@@ -1,6 +1,9 @@
-# Blank Line Organizer
+# Blank Line Organizer Reborn
 
 This extension will help you organize blank lines in the code by removing multiple blank lines. The extension removes blank lines only from the selected lines if any, otherwise from the entire file.
+
+## Thanks 
+[original project](https://github.com/rintoj/blank-line-organizer) by [rintoj](https://github.com/rintoj)
 
 ## Demo
 
@@ -29,5 +32,3 @@ NOTE: By default the extension is configured to format on save, you can disable 
 
 Contributions are very welcome! Just send a pull request. Feel free to contact me or checkout my [Github](https://github.com/rintoj/blank-line-organizer) page.
 
-## Thanks 
-[original project](https://github.com/rintoj/blank-line-organizer) by [rintoj](https://github.com/rintoj)

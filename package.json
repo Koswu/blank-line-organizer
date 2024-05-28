@@ -1,7 +1,7 @@
 {
-  "name": "blank-line-organizer",
-  "displayName": "Blank Line Organizer",
-  "description": "Removes unnecessary blank lines and adds if needed",
+  "name": "blank-line-organizer-reborn",
+  "displayName": "Blank Line Organizer Reborn",
+  "description": "Removes unnecessary blank lines and adds if needed, with more recent build",
   "version": "0.2.0",
   "publisher": "koswu",
   "icon": "images/icon.png",
@@ -79,6 +79,7 @@
     "vscode:prepublish": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "package": "vsce package",
+    "publish": "vsce publish",
     "postinstall": "node ./node_modules/vscode/bin/install"
   },
   "devDependencies": {
