@@ -29,16 +29,5 @@ NOTE: By default the extension is configured to format on save, you can disable 
 
 Contributions are very welcome! Just send a pull request. Feel free to contact me or checkout my [Github](https://github.com/rintoj/blank-line-organizer) page.
 
-## Author
-
-**Rinto Jose** (rintoj)
-
-Follow me:
-  [Github](https://github.com/rintoj)
-| [Facebook](https://www.facebook.com/rinto.jose)
-| [Twitter](https://twitter.com/rintoj)
-| [Google+](https://plus.google.com/+RintoJoseMankudy)
-| [Youtube](https://youtube.com/+RintoJoseMankudy)
-
-
-**Enjoy!**
+## Thanks 
+[original project](https://github.com/rintoj/blank-line-organizer) by [rintoj](https://github.com/rintoj)
