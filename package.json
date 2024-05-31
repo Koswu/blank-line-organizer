@@ -2,7 +2,7 @@
   "name": "blank-line-organizer-reborn",
   "displayName": "Blank Line Organizer Reborn",
   "description": "Removes unnecessary blank lines and adds if needed, with more recent build",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "publisher": "koswu",
   "icon": "images/icon.png",
   "engines": {
